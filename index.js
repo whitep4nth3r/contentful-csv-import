@@ -22,12 +22,6 @@ const client = cma.createClient({
   accessToken: vars.CMA_TOKEN,
 });
 
-function createKeyValuePair(key, val) {
-  return {
-    [key]: val,
-  };
-}
-
 function convertCSVToObj(string) {
   var array = string.split("\n");
 
