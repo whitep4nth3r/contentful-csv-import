@@ -1,5 +1,7 @@
 # How to import a CSV file into Contentful as entries using the Contentful Content Management API and JavaScript
 
+This currently assumes your content type is already set up and ready to import entries.
+
 ## Install dependencies
 
 ```bash
