@@ -1,21 +1,21 @@
 # How to import a CSV file into Contentful as entries using the Contentful Content Management API and JavaScript
 
-Install dependencies
+## Install dependencies
 
 ```bash
 npm i
 ```
 
-Add your Contentful credentials:
+## Add your Contentful credentials.
 
-- Add a credentials.js file at the root of the project with the following:
+Add a credentials.js file at the root of the project with the following:
 
 ```javascript
 module.exports.CMA_TOKEN = "your_cma_token;
 module.exports.SPACE_ID = "your_space_id";
 ```
 
-To run this script, navigate to the project root and run:
+## To run this script, navigate to the project root and run:
 
 ```bash
 node index.js
